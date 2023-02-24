@@ -23,6 +23,7 @@ local colors = {
     Cyan = {fg = c.cyan},
     Yellow = {fg = c.yellow},
     Orange = {fg = c.orange},
+    LightOrange = {fg.light_orange},
     Green = {fg = c.green},
     Blue = {fg = c.blue},
     Purple = {fg = c.purple}
@@ -194,7 +195,7 @@ if vim.api.nvim_call_function("has", { "nvim-0.8" }) == 1 then
         ["@danger"] = colors.Fg,
         ["@type"] = colors.Yellow,
         ["@type.builtin"] = colors.Orange,
-        ["@type.interface"] = colors.Lime,
+        ["@type.interface"] = colors.LightOrange,
         ["@type.qualifier"] = {fg = c.purple},
         ["@variable"] = {fg = c.fg, fmt = cfg.code_style.variables},
         ["@variable.builtin"] = {fg = c.red, fmt = cfg.code_style.variables},
