@@ -12,7 +12,7 @@ return {
 		purple = "#c678dd",
 		green = "#98c379",
 		orange = "#d19a66",
-		light_orange = "#edd8c3".
+		light_orange = "#edd8c3",
 		blue = "#61afef",
 		yellow = "#e5c07b",
 		cyan = "#56b6c2",
