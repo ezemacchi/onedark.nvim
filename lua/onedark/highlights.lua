@@ -23,7 +23,7 @@ local colors = {
     Cyan = {fg = c.cyan},
     Yellow = {fg = c.yellow},
     Orange = {fg = c.orange},
-    LightOrange = {fg.light_orange},
+    LightOrange = {fg = c.light_orange},
     Green = {fg = c.green},
     Blue = {fg = c.blue},
     Purple = {fg = c.purple}
