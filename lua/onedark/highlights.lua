@@ -166,6 +166,7 @@ if vim.api.nvim_call_function("has", { "nvim-0.8" }) == 1 then
         ["@punctuation.bracket"] = colors.LightGrey,
         ["@punctuation.special"] = colors.Red,
         ["@repeat"] = {fg = c.purple, fmt = cfg.code_style.keywords},
+        ["@storageclass"] = {fg = c.purple},
         ["@string"] = {fg = c.green, fmt = cfg.code_style.strings},
         ["@string.regex"] = {fg = c.orange, fmt = cfg.code_style.strings},
         ["@string.escape"] = {fg = c.red, fmt = cfg.code_style.strings},
